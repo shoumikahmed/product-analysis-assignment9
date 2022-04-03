@@ -22,7 +22,7 @@ const Blogs = () => {
                         What is Semantic Tag?
                     </p>
                     <p className='text-gray-600'>
-
+                        One of the most important and useful features of html5 is Semantic Element.It makes web pages more informative and helps search engines for better performance.Semantic html makes the html more comprehensive by better different sections and layout of web pages.For example using div you can use better layout experience.Header, Nav, Main, Article, Section, Footer these are Semantic Elements.These elements helps the website to become more comprehensive.
                     </p>
                 </div>
             </div>
