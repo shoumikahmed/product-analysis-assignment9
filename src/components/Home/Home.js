@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
 import Review from '../Review/Review';
 
@@ -19,15 +20,18 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <p className='text-center text-3xl font-bold text-gray'>Customer Reviews: {reviews.length}</p>
+                <p className='text-center text-3xl font-bold text-gray'>Customer Reviews: {reviews.slice(0, 3).length}</p>
                 <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-items-center'>
                     {
-                        reviews.map(review => <Review
+                        reviews.slice(0, 3).map(review => <Review
                             key={review.id}
                             review={review}
                         ></Review>)
                     }
                 </div>
+            </div>
+            <div className='flex justify-center mb-10'>
+                <button className=' bg-purple-700 px-4 py-2 rounded-xl text-white'><Link to="/reviews" >See All Reviews</Link></button>
             </div>
         </section>
     );
