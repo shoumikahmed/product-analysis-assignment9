@@ -1,6 +1,11 @@
 import React from 'react';
+import useReviews from '../../hooks/useReviews';
+import Review from '../Review/Review';
 
 const Home = () => {
+
+    const [reviews, setReviews] = useReviews()
+
     return (
         <section>
             <div className='flex justify-around items-center my-20'>
@@ -11,6 +16,17 @@ const Home = () => {
                 </div>
                 <div className='w-[800px] px-10'>
                     <img src="https://i.pinimg.com/originals/09/01/24/0901241fee529bc19918ad3b7b579826.jpg" alt="" />
+                </div>
+            </div>
+            <div>
+                <p className='text-center text-3xl font-bold text-gray'>Customer Reviews: {reviews.length}</p>
+                <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-items-center'>
+                    {
+                        reviews.map(review => <Review
+                            key={review.id}
+                            review={review}
+                        ></Review>)
+                    }
                 </div>
             </div>
         </section>
