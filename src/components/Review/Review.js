@@ -4,7 +4,7 @@ const Review = ({ review }) => {
     const { name, rating, reviews, image } = review
     return (
         <div className='px-4 pt-20 pb-24 mx-auto max-w-7xl md:px-2'>
-            <div className='w-[350px] h-full border-solid border-2 py-4 px-4 hover:border-dotted border-purple-500 rounded-lg'>
+            <div className='w-[350px] h-full border-solid border-2 py-4 px-4 hover:border-dotted border-purple-500 rounded-lg shadow-2xl'>
                 <div className='mb-4'>
                     <img className='' src={image} alt="" />
                 </div>

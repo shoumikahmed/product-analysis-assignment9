@@ -9,7 +9,7 @@ const Home = () => {
 
     return (
         <section>
-            <div className='flex justify-around items-center my-20'>
+            <div className='flex justify-around items-center my-20 '>
                 <div className='px-10'>
                     <h1 className='text-xl md:text-7xl'>Best camera</h1>
                     <h1 className='text-xl md:text-7xl text-purple-600'>Best capturing</h1>
