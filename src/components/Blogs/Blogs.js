@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-const About = () => {
+const Blogs = () => {
     return (
         <section className='px-4 pt-10 pb-24 mx-auto max-w-7xl md:px-2'>
             <h1 className='mb-6 text-2xl font-light text-gray-900 md:text-3xl text-center'>
@@ -27,7 +27,7 @@ const About = () => {
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default About
+export default Blogs;
