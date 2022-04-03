@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Review = ({ review }) => {
+const ReviewDetails = ({ review }) => {
     const { name, rating, reviews, image } = review
     return (
         <div className='px-4 pt-20 pb-24 mx-auto max-w-7xl md:px-2'>
@@ -16,4 +16,4 @@ const Review = ({ review }) => {
     );
 };
 
-export default Review;
+export default ReviewDetails;
