@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Mark Zuckerberg",
+        "rating": "5 star",
+        "review": "Thank you for your good product. I use this product for 6 months. This product is working very well.",
+        "image": "https://images.news18.com/ibnlive/uploads/2021/09/mark-zuckerberg-reuters.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Shakib Al Hasan",
+        "rating": "4 star",
+        "review": "i was expecting to receive a camera bag, memory chip etc along with the camera; thats how it is everywhere else. for the price you took, now it feels like a rip off",
+        "image": "https://images.newindianexpress.com/uploads/user/imagelibrary/2020/12/27/w1200X800/Shakib_Al_Hasan_ICCs_ODI_Team_Of_The_Decade_PTI.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Mashrafe Bin Mortaza",
+        "rating": "5 star",
+        "review": "Thanks for helping me a bit to make my dream come true.Purchased 4 months ago. Performing good so far.",
+        "image": "https://images.prothomalo.com/prothomalo-english/import/media/2019/06/02/6e2d40b0f949a1cc7a6092f5f07dff8a-Mashrafe.jpg?w=1200&h=799"
+    },
+    {
+        "id": "4",
+        "name": "Jhankar Mahbub",
+        "rating": "4.5 star",
+        "review": "An easily portable DSLR that is fun and easy to use, and delivers excellent results.It is a special camera for me.",
+        "image": "https://images.squarespace-cdn.com/content/59dce1fa80bd5e67177b5efe/1508431308775-06R17E9NKZW9XXIN1H49/11138647_10152658520856891_2718987297397745986_n.jpg?content-type=image%2Fjpeg"
+    },
+    {
+        "id": "5",
+        "name": "Elon Musk",
+        "rating": "5 star",
+        "review": "4K videos look great when i play them on my TV or my smartphone. 4K Frame Grab extracts photos from my movies, while the 4K time-lapse turns hours into seconds.",
+        "image": "https://images.news18.com/ibnlive/uploads/2021/08/elon-musk.png"
+    },
+    {
+        "id": "6",
+        "name": "Steve Jobs",
+        "rating": "4 star",
+        "review": "Share photos via my smartphone by linking them to the EOS 250D with Bluetooth. Wireless camera management is possible with the Canon Camera Remote app.",
+        "image": "https://assets.entrepreneur.com/content/3x2/2000/1617286255-GettyImages-80145055.jpg?crop=1:1"
+    }
+]
