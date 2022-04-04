@@ -1,5 +1,5 @@
 import React from 'react';
-import { Area, Bar, CartesianGrid, ComposedChart, Legend, Line, LineChart, Pie, PieChart, Scatter, Tooltip, XAxis, YAxis } from 'recharts';
+import { Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const Dashboard = () => {
     const data = [
@@ -41,7 +41,7 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div className='my-10 ml-20 md:flex justify-around'>
+        <div className='ml-4 md:flex justify-around items-center'>
             <div>
                 <LineChart width={500} height={400} data={data}>
                     <Line dataKey={'investment'}></Line>
