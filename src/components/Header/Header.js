@@ -4,7 +4,7 @@ import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
     return (
-        <div className='sticky top-0 bg-white px-12 py-8 flex justify-center md:justify-between'>
+        <div className='sticky shadow-lg top-0 bg-white px-12 py-8 flex justify-center md:justify-between'>
             <div className='hidden md:block'>
                 <Link to="/" className='font-bold text-xl text-purple-600'>Camera Review</Link>
             </div>

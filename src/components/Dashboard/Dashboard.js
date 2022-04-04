@@ -41,7 +41,7 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div className='ml-4 md:flex justify-around items-center'>
+        <div className='ml-4 md:flex justify-around items-center mt-12'>
             <div>
                 <LineChart width={500} height={400} data={data}>
                     <Line dataKey={'investment'}></Line>
@@ -52,7 +52,7 @@ const Dashboard = () => {
                 </LineChart>
             </div>
             <div>
-                <PieChart width={500} height={500}>
+                <PieChart width={500} height={400}>
                     <Pie data={data} dataKey="revenue" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
                     <Pie data={data} dataKey="investment" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
                     <Tooltip></Tooltip>

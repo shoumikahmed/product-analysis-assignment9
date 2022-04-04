@@ -8,7 +8,7 @@ const Home = () => {
     const [reviews, setReviews] = useReviews()
 
     return (
-        <section>
+        <section className=''>
             <div className='md:flex justify-around items-center my-20 '>
                 <div className='px-10'>
                     <h1 className='text-xl md:text-7xl'>Best camera</h1>
